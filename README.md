@@ -1,6 +1,6 @@
-# technova-discord-bot
-## Backgroud
-This discord bot can be used for hackthon mentor and hacker verification
+# hackathon-verify-bot
+## Background
+This discord bot can be used for hackathon mentor and hacker verification
 
 ## Tech Stack
 Used Google sheet as a lightweight database
@@ -10,10 +10,10 @@ Used Google sheet as a lightweight database
 2. Create .env with the following variables
    - DOC_ID: find in the google sheet (the sheet contains a list of hackers) url
    - DISCORD_TOKEN: the token for the bot you created
-   - GUILD_ID: hackthon server guild id
-3. setup google api to be able to use GoogleSpreadsheet
-   - copy the json to hackthon-discord-bot.json containing the credential
-4. test and deploy it
+   - GUILD_ID: hackathon server guild id
+3. setup Google API to be able to use GoogleSpreadsheet
+   - Copy the json to hackathon-discord-bot.json containing the credential
+4. Test and deploy it
 
 ## Example
   
